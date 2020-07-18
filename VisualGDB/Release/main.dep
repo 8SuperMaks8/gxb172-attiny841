@@ -1,0 +1,182 @@
+VisualGDB/Release/main.o: main.cpp \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\io.h \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\sfr_defs.h \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\inttypes.h \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\lib\gcc\avr\9.1.1\include\stdint.h \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\stdint.h \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\iotn841.h \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\portpins.h \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\common.h \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\version.h \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\fuse.h \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\lock.h \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\interrupt.h \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\sleep.h \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\util\delay.h \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\util\delay_basic.h \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\math.h \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\wdt.h \
+ E:/Projects/AVR/libs/Mcucpp/mcucpp/iopins.h \
+ E:/Projects/AVR/libs/Mcucpp/mcucpp/iopin.h \
+ E:/Projects/AVR/libs/Mcucpp/mcucpp/static_assert.h \
+ E:/Projects/AVR/libs/Mcucpp/mcucpp/impl/iopin.h \
+ E:/Projects/AVR/libs/Mcucpp/mcucpp/ioports.h \
+ E:/Projects/AVR/libs/Mcucpp/mcucpp/AVR/ports.h \
+ E:/Projects/AVR/libs/Mcucpp/mcucpp/AVR/__compatibility.h \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\builtins.h \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\eeprom.h \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\lib\gcc\avr\9.1.1\include\stddef.h \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\boot.h \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\lib\gcc\avr\9.1.1\include-fixed\limits.h \
+ E:/Projects/AVR/libs/Mcucpp/mcucpp/atomic.h \
+ E:/Projects/AVR/libs/Mcucpp/mcucpp/AVR/_atomic.h \
+ E:/Projects/AVR/libs/Mcucpp/mcucpp/ioreg.h \
+ E:/Projects/AVR/libs/Mcucpp/mcucpp/compiler.h \
+ c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\stdlib.h \
+ E:/Projects/AVR/libs/Mcucpp/mcucpp/template_utils.h \
+ E:/Projects/AVR/libs/Mcucpp/mcucpp/AVR/__port_def.h \
+ E:/Projects/AVR/libs/Mcucpp/mcucpp/pinlist.h \
+ E:/Projects/AVR/libs/Mcucpp/3rdparty/include/loki/Typelist.h \
+ E:/Projects/AVR/libs/Mcucpp/3rdparty/include/loki/NullType.h \
+ E:/Projects/AVR/libs/Mcucpp/3rdparty/include/loki/TypeManip.h \
+ E:/Projects/AVR/libs/Mcucpp/3rdparty/include/loki/TypelistMacros.h \
+ E:/Projects/AVR/libs/Mcucpp/mcucpp/static_if.h \
+ E:/Projects/AVR/libs/Mcucpp/mcucpp/select_size.h \
+ E:/Projects/AVR/libs/Mcucpp/mcucpp/impl/pinlist.h PWM.h \
+ E:/Projects/AVR/libs/MyCustomLibs/BinaryOpr.h MP3431.h I2C.h \
+ E:/Projects/AVR/libs/Mcucpp/mcucpp/delay.h \
+ E:/Projects/AVR/libs/Mcucpp/mcucpp/AVR/platform_dalay.h TMP103.h ADC.h \
+ E:/Projects/AVR/libs/MyCustomLibs/Common.h LED.h \
+ E:/Projects/AVR/libs/MyCustomLibs/Vector.h \
+ E:/Projects/AVR/libs/MyCustomLibs/Callback.h \
+ E:/Projects/AVR/libs/MyCustomLibs/SimpleVector.h PID.h MedianFilter.h \
+ EEPPROM.h E:/Projects/AVR/libs/MyCustomLibs/uart.h Smooth.h Watchdog.h \
+ ESW.h
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\io.h:
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\sfr_defs.h:
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\inttypes.h:
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\lib\gcc\avr\9.1.1\include\stdint.h:
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\stdint.h:
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\iotn841.h:
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\portpins.h:
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\common.h:
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\version.h:
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\fuse.h:
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\lock.h:
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\interrupt.h:
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\sleep.h:
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\util\delay.h:
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\util\delay_basic.h:
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\math.h:
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\wdt.h:
+
+E:/Projects/AVR/libs/Mcucpp/mcucpp/iopins.h:
+
+E:/Projects/AVR/libs/Mcucpp/mcucpp/iopin.h:
+
+E:/Projects/AVR/libs/Mcucpp/mcucpp/static_assert.h:
+
+E:/Projects/AVR/libs/Mcucpp/mcucpp/impl/iopin.h:
+
+E:/Projects/AVR/libs/Mcucpp/mcucpp/ioports.h:
+
+E:/Projects/AVR/libs/Mcucpp/mcucpp/AVR/ports.h:
+
+E:/Projects/AVR/libs/Mcucpp/mcucpp/AVR/__compatibility.h:
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\builtins.h:
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\eeprom.h:
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\lib\gcc\avr\9.1.1\include\stddef.h:
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\avr\boot.h:
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\lib\gcc\avr\9.1.1\include-fixed\limits.h:
+
+E:/Projects/AVR/libs/Mcucpp/mcucpp/atomic.h:
+
+E:/Projects/AVR/libs/Mcucpp/mcucpp/AVR/_atomic.h:
+
+E:/Projects/AVR/libs/Mcucpp/mcucpp/ioreg.h:
+
+E:/Projects/AVR/libs/Mcucpp/mcucpp/compiler.h:
+
+c:\program\ files\ (x86)\atmelstudio\7.0\toolchain\avr8\win64\avr\include\stdlib.h:
+
+E:/Projects/AVR/libs/Mcucpp/mcucpp/template_utils.h:
+
+E:/Projects/AVR/libs/Mcucpp/mcucpp/AVR/__port_def.h:
+
+E:/Projects/AVR/libs/Mcucpp/mcucpp/pinlist.h:
+
+E:/Projects/AVR/libs/Mcucpp/3rdparty/include/loki/Typelist.h:
+
+E:/Projects/AVR/libs/Mcucpp/3rdparty/include/loki/NullType.h:
+
+E:/Projects/AVR/libs/Mcucpp/3rdparty/include/loki/TypeManip.h:
+
+E:/Projects/AVR/libs/Mcucpp/3rdparty/include/loki/TypelistMacros.h:
+
+E:/Projects/AVR/libs/Mcucpp/mcucpp/static_if.h:
+
+E:/Projects/AVR/libs/Mcucpp/mcucpp/select_size.h:
+
+E:/Projects/AVR/libs/Mcucpp/mcucpp/impl/pinlist.h:
+
+PWM.h:
+
+E:/Projects/AVR/libs/MyCustomLibs/BinaryOpr.h:
+
+MP3431.h:
+
+I2C.h:
+
+E:/Projects/AVR/libs/Mcucpp/mcucpp/delay.h:
+
+E:/Projects/AVR/libs/Mcucpp/mcucpp/AVR/platform_dalay.h:
+
+TMP103.h:
+
+ADC.h:
+
+E:/Projects/AVR/libs/MyCustomLibs/Common.h:
+
+LED.h:
+
+E:/Projects/AVR/libs/MyCustomLibs/Vector.h:
+
+E:/Projects/AVR/libs/MyCustomLibs/Callback.h:
+
+E:/Projects/AVR/libs/MyCustomLibs/SimpleVector.h:
+
+PID.h:
+
+MedianFilter.h:
+
+EEPPROM.h:
+
+E:/Projects/AVR/libs/MyCustomLibs/uart.h:
+
+Smooth.h:
+
+Watchdog.h:
+
+ESW.h:

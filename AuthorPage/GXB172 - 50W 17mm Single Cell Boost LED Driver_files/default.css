@@ -1,0 +1,413 @@
+/* Loneoceans design 3 CSS */
+/* (C) 2011 Jan, 2013 Jul  */
+
+/*Jquery http://nivo.dev7studios.com/ */
+/* basic elements */
+
+
+html {
+	margin: 0;
+	padding: 0;
+	padding: 0;
+	}
+body {
+	font-family: Arial, sans-serif;
+	font-size: 8 pt;
+	color: #252525;
+	background-color: #FFFFFF;
+	}
+	
+h1         
+  {
+	font-family: Georgia;
+	font-size: 30pt;
+	color: #111111;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+}	  
+h2           {
+	font-family: Georgia;
+	font-size: 14pt;
+	color: #333;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	text-align: center;
+}
+h3 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	color: #4681EC; /* 09c */
+	text-align: left;
+}
+
+h4 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+	color: #CC0075;
+	text-align: left;
+}
+
+td{
+    padding:10px;
+}
+
+table { 
+    border-collapse:collapse; 
+}
+
+.catRow{
+    vertical-align:text-top;
+}
+.catTitle{
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: Bold;
+    color: #000;
+}
+.catDes{
+    font-family: Tahoma, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    color: #3399FF;
+}
+.catText{
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #000;
+    line-height:150%;
+}
+
+.liindex{
+    -webkit-margin-after: 3px;
+}
+
+.row1 {
+	background-color:#f0f0f0;
+}
+
+.row2 {
+	background-color:#e0e0e0;
+}
+
+.fullWrap{
+    border-collapse: separate;
+	box-shadow: 0px 0px 15px #eee;
+	-moz-box-shadow: 0px 0px 15px #eee;
+	-webkit-box-shadow: 0px 0px 15px #eee;
+	border-color: "white";
+	border-width: "0";
+}
+.contentWrap{
+    border-collapse: collapse;
+    background:transparent;
+}
+
+.text {
+	font-family: Arial, Tahoma, Geneva, sans-serif;
+	font-size: 10pt;
+	font-style: normal;
+	color: #252525;
+	text-align: justify;
+	word-spacing: normal;
+    line-height: 1.5em;
+}
+.pictures {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #333;
+	text-align: center;
+}
+.Date {
+	font-size: 12px;
+	font-weight: bold;
+	font-variant: normal;
+	color: #FFF;
+	font-family: Tahoma, Geneva, sans-serif;
+	background-color: #b6e91c;
+	text-align: right;
+}
+
+
+.sideTitle{
+    font-size: 18px;
+    font-family: 'Georgia', serif;
+    color: #000;
+    text-align: left;
+}
+.sideText{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: #000;
+    line-height:150%
+}
+.sideText2{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: #000;
+    line-height:150%;
+    padding: 10px
+}
+
+.menubar {
+	box-shadow: 0px 0px 8px 0px #bbb;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-box-shadow: 0px 0px 8px #b7b7b7;
+	-webkit-box-shadow: 0px 0px 8px #b7b7b7;
+	border-collapse: separate;
+	border-width:0px;
+	border-spacing: 0;
+}
+
+.pageWrap {
+	border-collapse: separate; 
+	box-shadow: 0px 0px 10px #999;
+	-moz-box-shadow: 0px 0px 10px #999;
+	-webkit-box-shadow: 0px 0px 10px #999;
+	border-color: "white";
+	border-width: "0";
+}
+
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #2875DE;
+	}
+
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #CC0000;
+	}
+a:hover, a:active {
+	text-decoration: underline;
+	color: #99CC00;
+	text-align: center;
+	}
+.credits {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 8pt;
+	color: #c0c0c0;
+	text-align: center;
+}
+
+hr {
+	color:#B7B7B7;
+	background-color:#B7B7B7;
+	height:1px;	
+	}
+
+
+/* CSS for Menubar */
+#sddm
+{	margin: 0;
+	padding: 0;
+	z-index: 30;
+	}
+
+#sddm li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	z-index:1;
+	font: bold 12px arial	}
+
+#sddm li a
+{	display: block;
+	margin: 0 2px 0 0;
+	padding: 4px 10px;
+	width: 67px;
+	background: #BAED1F;
+	color: #FFF;
+	text-align: center;
+	z-index:1;
+	text-decoration: none}
+
+#sddm li a:hover
+{	background: #49A3FF
+	z-index:2;}
+
+#sddm div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	z-index:1;
+	border: 1px solid #ff9900}
+
+#sddm div a
+{	position: relative;
+	display: block;
+	margin: 0;
+	padding: 5px 10px;
+	width: auto;
+	white-space: nowrap;
+	text-align: left;
+	text-decoration: none;
+	background: #EAEBD8;
+	color: #2875DE;
+	z-index:1;
+	font: 11px arial}
+
+#sddm div a:hover
+{	background: #49A3FF;
+	z-index:2;
+	color: #FFF}
+
+
+		
+/*
+ * jQuery Nivo Slider v2.4
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2011, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+ 
+ 
+/* The Nivo Slider styles */
+
+
+#slider {
+	position:relative;
+    width:980px;
+    height:450px;
+    margin-left:0px;
+	background:url(slider/images/loading.gif) no-repeat 50% 50%;
+	z-index:0
+}
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#slider a {
+	border:0;
+	display:block;
+}
+
+
+.nivoSlider {
+	position:relative;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:60;
+	display:none;
+}
+/* The slices in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:50;
+	height:100%;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	opacity:0.8; /* Overridden by captionOpacity setting */
+	width:100%;
+	z-index:89;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(slider/images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+/* #################################### */
+/* #################################### */
+/* #################################### */
+/* #################################### */
+
+
+.nivo-controlNav {
+	position:absolute;
+	left:320px;                                                                      /* Control buttons here! -------------------------------------*/
+	bottom:-33px;
+}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(slider/images/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+
+
+#slider {
+    position:relative;
+    width:980px; /* Change this to your images width */
+    height:px; /* Change this to your images height */
+    background:url(images/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+#slider a {
+    border:0;
+    display:block;
+}

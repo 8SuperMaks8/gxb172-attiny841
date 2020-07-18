@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|VisualGDB">
+      <Configuration>Debug</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|VisualGDB">
+      <Configuration>Release</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{F4C87E82-68AA-4739-8617-72025B804701}</ProjectGuid>
+    <BSP_ID>com.sysprogs.avr.core</BSP_ID>
+    <BSP_VERSION>1.0</BSP_VERSION>
+    <InPlaceBSPSubdir />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)avr.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)avr.props</MCUPropertyListFile>
+    <GenerateHexFile>true</GenerateHexFile>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <GNUConfigurationType>Debug</GNUConfigurationType>
+    <ToolchainID>ed3fdd6f-926c-4b50-89c5-18356e501699</ToolchainID>
+    <ToolchainVersion>9.1.1/8.2.50.20190202-git/r0</ToolchainVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ToolchainID>ed3fdd6f-926c-4b50-89c5-18356e501699</ToolchainID>
+    <ToolchainVersion>9.1.1/8.2.50.20190202-git/r0</ToolchainVersion>
+    <TargetExt>.elf</TargetExt>
+    <ExtensionsToDeleteOnClean>*.elf;*.lss;$(ExtensionsToDeleteOnClean)</ExtensionsToDeleteOnClean>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <ClCompile>
+      <CPPLanguageStandard>CPP1Z</CPPLanguageStandard>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ClCompile>
+      <CPPLanguageStandard>GNUPP1Z</CPPLanguageStandard>
+      <AdditionalIncludeDirectories>E:\Projects\AVR\libs\Mcucpp\3rdparty\include;E:\Projects\AVR\libs\Mcucpp\mcucpp;E:\Projects\AVR\libs\Mcucpp\mcucpp\AVR;E:\Projects\AVR\libs\MyCustomLibs;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG=1;RELEASE=1 -std=c++17 -funsigned-char -funsigned-bitfields -ffunction-sections -fdata-sections -fpack-struct -fshort-enums;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <InlineFunctions>true</InlineFunctions>
+      <LinkTimeOptimization>true</LinkTimeOptimization>
+      <AdditionalCPPOptions>-std=c++17</AdditionalCPPOptions>
+      <GenerateAssemblyOutput>true</GenerateAssemblyOutput>
+      <OmitFramePointer>true</OmitFramePointer>
+      <Optimization>O3</Optimization>
+      <PositionIndependentCode>false</PositionIndependentCode>
+      <DataSections>true</DataSections>
+      <FunctionSections>true</FunctionSections>
+      <DebugInformationFormat>-g0 -ggdb0</DebugInformationFormat>
+      <InputLanguage>Cpp</InputLanguage>
+    </ClCompile>
+    <Link>
+      <AdditionalLinkerInputs>;%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <LibrarySearchDirectories>;%(Link.LibrarySearchDirectories)</LibrarySearchDirectories>
+      <AdditionalLibraryNames>;%(Link.AdditionalLibraryNames)</AdditionalLibraryNames>
+      <LinkerScript />
+      <GenerateMapFile>true</GenerateMapFile>
+    </Link>
+    <ToolchainSettingsContainer>
+      <DeviceType>attiny841</DeviceType>
+    </ToolchainSettingsContainer>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="avr.props" />
+    <None Include="GXB172-Debug.vgdbsettings" />
+    <None Include="GXB172-Release.vgdbsettings" />
+    <None Include="GXB172.vgdbtests" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="avr.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ADC.h" />
+    <ClInclude Include="Battery.h" />
+    <ClInclude Include="EEPPROM.h" />
+    <ClInclude Include="I2C.h" />
+    <ClInclude Include="LED.h" />
+    <ClInclude Include="MedianFilter.h" />
+    <ClInclude Include="MP3431.h" />
+    <ClInclude Include="PID.h" />
+    <ClInclude Include="PWM.h" />
+    <ClInclude Include="TMP103.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,10 @@
+﻿  main.cpp
+  main.cpp (assembly output)
+  Linking VisualGDB/Release/GXB172.elf...
+  Map file saved to file://E:\Projects\GXB172\VisualGDB\Release\GXB172.map
+  ------------------- Memory utilization report -------------------
+  Used FLASH: 6468 bytes out of 8192 bytes (78%)
+  Used RAM: 0 bytes out of 768 bytes (0%)
+  VisualGDB: Executing post-build actions
+  VisualGDB: Run ""C:\Program Files (x86)\AtmelStudio\7.0\toolchain\avr8\win64\bin\avr-strip.exe" --strip-debug GXB172.elf" in directory "E:\Projects\GXB172\VisualGDB\Release" on local computer
+  VisualGDB: Run ""C:\Program Files (x86)\AtmelStudio\7.0\toolchain\avr8\win64\bin\avr-objdump.exe" -h -S GXB172.elf > GXB172.lss" in directory "E:\Projects\GXB172\VisualGDB\Release" on local computer [background]
