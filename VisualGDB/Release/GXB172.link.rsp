@@ -1,1 +1,0 @@
--o VisualGDB/Release/GXB172.elf -Wl,-gc-sections -Wl,-Map=VisualGDB/Release/GXB172.map -mmcu=attiny841  -Wl,--start-group VisualGDB/Release/main.o -Wl,--end-group

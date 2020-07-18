@@ -79,7 +79,6 @@
     <None Include="avr.props" />
     <None Include="GXB172-Debug.vgdbsettings" />
     <None Include="GXB172-Release.vgdbsettings" />
-    <None Include="GXB172.vgdbtests" />
   </ItemGroup>
   <ItemGroup>
     <Xml Include="avr.xml" />

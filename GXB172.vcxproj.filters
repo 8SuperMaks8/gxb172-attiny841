@@ -8,10 +8,6 @@
     <Filter Include="Device-specific files">
       <UniqueIdentifier>{c4d0fe57-05f9-42b7-b2d2-9ed9f01bf102}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Integration Tests">
-      <UniqueIdentifier>{f8d2d1ff-ae2d-47a6-8343-35200c59e629}</UniqueIdentifier>
-      <Extensions>vgdbtests</Extensions>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="GXB172-Debug.vgdbsettings">
@@ -22,9 +18,6 @@
     </None>
     <None Include="avr.props">
       <Filter>VisualGDB settings</Filter>
-    </None>
-    <None Include="GXB172.vgdbtests">
-      <Filter>Integration Tests</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

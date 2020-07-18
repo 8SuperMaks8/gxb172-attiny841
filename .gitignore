@@ -8,3 +8,11 @@ Release/GXB172.eep
 GXB172.componentinfo.xml
 .vs
 Debug
+VisualGDB/VisualGDBCache
+VisualGDB/Debug
+VisualGDB/Release/*
+!VisualGDB/Release/GXB172.elf
+!VisualGDB/Release/GXB172.hex
+!VisualGDB/Release/GXB172.bin
+!VisualGDB/Release/GXB172.map
+!VisualGDB/Release/GXB172.lss
