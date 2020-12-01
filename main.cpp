@@ -48,15 +48,22 @@ FUSES = {
 //#define MEM_LAST_MODE
 constexpr unsigned char DEFAULT_MODE = 0u;
 
+template<typename T>
+constexpr auto RES2COUNTS(T res) {
+	return (1 << res) - 1;
+}
+
 constexpr auto ADC_REF_V = 1.1;
-constexpr auto ADC_COUNTS = 1 << 10; // 10-bit
-constexpr auto PWM_COUNTS = 1 << 10; // 10-bit
+const unsigned char ADC_RESOLUTION = 10; // 10-bit
+const unsigned char PWM_RESOLUTION = 10; // 10-bit
+constexpr unsigned short int ADC_COUNTS = RES2COUNTS(ADC_RESOLUTION);
+constexpr unsigned short int PWM_COUNTS = RES2COUNTS(PWM_RESOLUTION);
 constexpr auto CAP_SHORT = V2ADC(0.61, ADC_REF_V, ADC_COUNTS);	// Short Press  (modify depending on OTC cap)
 
 constexpr auto R4 = 1000u; // 1 kOm;
 constexpr auto R2 = 4700u; // 4.7kOm;
 
-constexpr auto BATT_OVERSAMPLING_BITS = 3;
+constexpr unsigned char BATT_OVERSAMPLING_BITS = 3;
 
 template<typename T>
 constexpr auto BATT2ADC(T v) {
@@ -300,7 +307,7 @@ class ExternalTempSensor : public TempSensor {
 	Brightness_mngr br;
 #endif // MEM_LAST_MODE
 
-using Led = LED<MP3431<pins::MP3431_en, PWM<pins::MP3431_PWM, PWM_COUNTS - 1>>, 1u, 2u>;
+using Led = LED<MP3431<pins::MP3431_en, PWM<pins::MP3431_PWM, PWM_COUNTS>>, 1u, 2u>;
 Led led;
 
 #ifdef CLICK_EXT_BT
@@ -627,12 +634,12 @@ int main() {
 						if (Dctrl < (1 << BATT_OVERSAMPLING_BITS + 2)) {
 							// More precisely and most of the long operation
 							batt = fb::batt();
-							batt_time_sample = (70409 >> 3) / sample_time;
+							batt_time_sample = (70409u >> 3) / sample_time;
 						}
 						else {
 							// Significant fastest operation
 							batt = fb::batt.fast_read();
-							batt_time_sample = (5112 >> 3) / sample_time;
+							batt_time_sample = (5112u >> 3) / sample_time;
 						}
 
 						// Overdischarge protection
