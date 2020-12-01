@@ -1,6 +1,6 @@
 Firmware for GXB172 Flashlight Driver
 
-Major changes in conpare with original:
+Major changes in compare with [original](https://github.com/loneoceans/gxb172-attiny841 "loneoceans/gxb172-attiny841"):
 1. EPPROM not used.
   You can switch the mods in loop, like it was in original firmware, but each time starting from default mode.
 2. No candle mode or some other configuration, or jumpers.
