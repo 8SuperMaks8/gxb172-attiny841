@@ -18,3 +18,4 @@ VisualGDB/Release
 # !VisualGDB/Release/GXB172.map
 # !VisualGDB/Release/GXB172.lss
 /*.vcxproj*
+/*.vgdbsettings*
