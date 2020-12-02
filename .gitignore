@@ -1,11 +1,5 @@
-Release/Makefile
-Release/main.o
-Release/makedep.mk
-Release/main.d
-Release/GXB172.eep
-Release/GXB172.map
-Release/GXB172.eep
-GXB172.componentinfo.xml
+Release
+*.componentinfo.xml
 .vs
 Debug
 VisualGDB
@@ -19,3 +13,4 @@ VisualGDB/Release
 # !VisualGDB/Release/GXB172.lss
 /*.vcxproj*
 /*.vgdbsettings*
+/*.sln
