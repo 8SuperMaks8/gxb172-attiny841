@@ -1,0 +1,8 @@
+[submodule "externals/Mcucpp"]
+	path = externals/Mcucpp
+	url = git@github.com:KonstantinChizhov/Mcucpp.git
+	branch = master
+[submodule "externals/MCUlibs"]
+	path = externals/MCUlibs
+	url = git@github.com:SuprMaks/MCUlibs.git
+	branch = master
